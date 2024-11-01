@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Skull Jabb</title>
+    <link rel="shortcut icon" href="img/Sj.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="Login.css">
+
+    <!-- Removed Bootstrap CSS -->
+</head>
+<body class="img-bg">
+
+    <!-- Optional JavaScript -->
+    <!-- Removed Bootstrap JavaScript and dependencies -->
+
+    <!-- Your custom HTML code -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <a href="#"><img src="img/Sj.png" alt="Caveira branca sobre um fogo azul"></a>
+                <a href="#" class="no-underline"><span>SKULL <br> JABB </span></a>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Procurar... " class="search-bar">
+                <i class="mdi mdi-magnify search-icon"></i> 
+            </div>
+            <nav class="menu">
+                <a href="#">Loja</a>
+                <a href="#">Comunidade</a>
+                <a href="#">Suporte</a>
+            </nav>
+            <div class="icons">
+                <a href="#" class="no-underline"><button class="btn">Idioma</button></a>
+                <a href="#" class="no-underline"><button class="btn">Login</button></a>
+                <a href="#"><i class="mdi mdi-cart-outline icone"></i></a>
+                <a href="#"><i class="mdi mdi-camera-outline icone"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+        <form method="POST" class="form-login button">
+            <h1>Login</h1>
+            <label for="email">Nome de usuário ou e-mail</label>
+            <input type="email" id="email" class="placeholder" placeholder="Username@email.com" required autofocus>
+            <label for="password">Senha</label>
+            <input type="password" id="password" class="placeholder" placeholder="Minha senha" required>
+            <a href="#">Esqueci minha senha</a>
+            <button type="submit" class="login-btn">Login</button>
+            <a href="#" class="erro-login">Não consigo efetuar o login</a>
+            <br>
+            <br>
+            <p class="p">Não possui conta? <a href="#" class="cadastre-se">Cadastre-se</a></p>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p class="footer p">&copy; 2024 Skull Jabb - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="Login.js"></script>
+
+</body>
+</html>
